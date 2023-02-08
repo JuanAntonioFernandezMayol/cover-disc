@@ -1,0 +1,46 @@
+.container{
+    display:flex;
+}
+
+
+.cuadrado{
+    height: 500px;
+    width: 500px;
+    background-color: black;
+    background-image: url("portada.jpg");
+    background-size: cover;
+    z-index: 1;
+}
+
+.disco{
+   height: 500px;
+   width: 500px;
+   background-color: black;
+   border-radius: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background: radial-gradient(circle, rgba(250,58,58,1) 22%, rgba(193,22,22,1) 58%, rgba(231,5,5,1) 80%);
+   translate: -40px 0px;
+   position: relative;
+}
+
+.rojo{
+    height: 200px;
+    width: 200px;
+    background-image: url("cd.jpg");
+    background-size: cover;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.blanco{
+    height: 20px;
+    width: 20px;
+    background-color: black;
+    border-radius: 100%;
+}
